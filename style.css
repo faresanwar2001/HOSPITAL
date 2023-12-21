@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fcfcfc;
+}
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+
+}
+
+.header nav a{
+    margin-left: 70px;
+    color: white;
+    text-decoration: none;
+}
+.header .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+    
+}
+.header .logo::first-letter{
+    color: red;
+    font-size: 30px;
+}
+.section{
+    background-image: url(img/back.jpg);
+   height: 800px;
+    width: 100%;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.section h2{
+    color: white;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.section h5{
+    color: white;
+    
+    
+    margin-top: 10px;
+
+}
+.section .btn{
+    
+    flex-direction: row;
+    display: inline-block;
+   
+    margin-top: 20px;
+
+}
+.section .btn .btn-1{
+    background-color: #6f0f41;
+    color: white;
+    border: none;
+    padding: 6px 30px;
+    border-radius: 2px;
+    
+    
+    margin-left: 50px;
+}
+.btn btn-1:hover{
+    color: #ccc;
+    cursor: pointer;
+}
+.section .btn .btn-2{
+    background-color: #2c9279;
+    color: white;
+    border: none;
+    padding: 6px 30px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+.section1{
+    
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1 hr{
+    width: 150px;
+    background-color:#e85050 ;
+    border: 2px solid #e85050 ;
+    margin-top: 5px;
+    
+}
+.section1 h2{
+    word-spacing: 6px;
+    letter-spacing: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.section2{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.section3{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.section3 img{
+    width: 550px;
+}
+.section5{
+    background-image: url(img/contact\ us.gif);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 270px;
+}
+.section5 h2{
+    color: white;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: 7px;
+    font-size: 40px;
+}
+.section5 .npt-1{
+    padding: 10px 150px;
+    margin-top: 20px;
+}
+.section5 textarea{
+    height: 70px;
+    padding: 10px 120px;
+    margin-top: 20px;
+}
+.section5 button{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 2px;
+}
+.section6{
+    background-image: url(img/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section6 h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 6px;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.section6 input{
+    padding: 9px 250px;
+    margin-top: 30px;
+}
+.section6 button{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 3px;
+    letter-spacing: 2px;
+}
+.section4{
+    width: 70%;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 170px;
+    margin-top: 100px;
+    padding: 50px;
+}
+.section4 img{
+    width: 450px;
+    height: 400px;
+    justify-content: center;
+    
+}
+.section4 h5{
+   
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+}
+.section4 .sec1{
+    border: 1px solid #ccc;
+    
+    padding: 20px 20px;
+    justify-content: center;
+}
+.section4 .sec1 h5{
+    margin-top: 5px;
+   
+}
+.section4 .sec2{
+    border: 1px solid #ccc;
+    
+    padding: 20px 20px;
+    margin-left: 25px;
+
+}
+.section4 .sec2 h5{
+    margin-top: 5px;
+   
+}
+.section4 .sec3{
+    border: 1px solid #ccc;
+    
+    padding: 20px 20px;
+    margin-top: 40px;
+
+}
+.section4 .sec3 h5{
+    margin-top: 5px;
+   
+}
+.section4 .sec4{
+    border: 1px solid #ccc;
+    margin-left: 25px;
+    padding: 20px 20px;
+    margin-top: 40px;
+
+}
+.section4 .sec4 h5{
+    margin-top: 5px;
+   
+}
+
+.sec3 .sec4{
+   padding-top: 40px;
+}
+
